@@ -4,7 +4,12 @@ import Header from './components/Header.js';
 
 const Home = props => {
     return (
+        <>
         <Header />
+        {<div className='main'>
+
+        </div>}
+        </>
     );
 }
 
