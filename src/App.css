@@ -47,5 +47,11 @@
 .header-block {
   height: 100vh;
   width: 100vw;
-  background-color: purple;
+  position: relative;
+  background-image: url("./assets/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-header {
+  color: white;
 }
