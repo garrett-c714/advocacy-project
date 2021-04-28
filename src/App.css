@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 /*My stuff */
 :root {
   --main-red: rgb(184, 33, 33);
@@ -45,7 +46,7 @@ img {
   justify-content: center;
   position: absolute;
   width: 100%;
-  top: 82vh;
+  top: 75vh;
 }
 .chevron {
   width: 150px;

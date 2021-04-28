@@ -7,7 +7,7 @@ const Header = props => {
         <div className='header-block flex-center'>
             <Zoom>
                 <div className='flex-center header-content' >
-                    <p className='header-header'>Alcohol and its effect <br />on teens</p>
+                    <p className='header-header'>Alcohol and the Consequences <br />of Overuse</p>
                     <p className='byline'>By Garrett Cox</p>
                 </div>
             </Zoom>
