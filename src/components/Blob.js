@@ -7,7 +7,7 @@ const Blob = props => {
 
     return (
         <>
-        {side=='left' && 
+        {side==='left' && 
         <Fade right>
         <div className='blob'>
             <div className='blob-1'>
@@ -21,7 +21,7 @@ const Blob = props => {
         </div>
         </Fade>
         }
-        {side=='right' && 
+        {side==='right' && 
         <Fade left>
         <div className='blob-left'>
             <div className='blob-2'>
