@@ -7,16 +7,18 @@
 
 .header-block {
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-image: url("./assets/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .header-header {
   color: white;
+  padding: 10px;
   font-family: Oswald;
   font-size: 6em;
   margin: 0;
+  background-color: rgba(122, 127, 128, 0.4);
 }
 .header-content {
   flex-direction: column;
@@ -35,4 +37,33 @@
 }
 .subheading {
   font-family: Oswald;
+  font-size: 50px;
+  margin-left: 1.2em;
+  border-left: 10px rgb(184, 33, 33) solid;
+  padding: 10px;
+}
+
+/* Blobs */
+.blob {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+}
+.blob-text {
+  width: 80%;
+  font-family: Oswald;
+  font-size: 20px;
+}
+.blob-1 {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.blob-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blob-image {
+  width: 80%;
+  height: auto;
 }
