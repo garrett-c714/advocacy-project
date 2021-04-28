@@ -133,3 +133,20 @@ img {
   height: 300px;
   background-color: var(--maroon);
 }
+
+/* Media */
+@media only screen and (max-width: 728px) {
+  img {
+    display: none;
+  }
+  .blob {
+    grid-template-columns: 1fr;
+  }
+  .blob-left {
+    grid-template-columns: 0% 1fr;
+  }
+  .header-header {
+    font-size: 3em;
+    text-align: center;
+  }
+}
