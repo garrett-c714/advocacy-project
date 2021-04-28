@@ -6,17 +6,25 @@ import Blob from './components/Blob.js';
 import SubSubheading from './components/SubSubheading.js';
 import Footer from './components/Footer.js';
 
+import Fade from 'react-reveal/Fade';
+
 import Wine from './assets/wine-graphic.jpg';
 import Jail from './assets/jail-image.jpg';
 import Crash from './assets/car-crash.jpg';
 import Brain from './assets/brain-alc.jpg';
 import Crash2 from './assets/car-crash-2.jpg';
 import Crash3 from './assets/car-crash-3.jpg';
+import Chevron from './assets/chevron-down.png';
 
 const Home = props => {
     return (
         <>
         <Header />
+        <Fade left>
+            <div className='chevbox'>
+                <img className='chevron' src={Chevron} alt='Chevron' />
+            </div>
+        </Fade>
         <div className='main'>
             <Subheading>What is Alcohol?</Subheading>
             <Blob side='left' alt='Wine Graphic' image={Wine}>
