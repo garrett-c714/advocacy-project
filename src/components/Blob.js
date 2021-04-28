@@ -20,7 +20,7 @@ const Blob = props => {
         </div>
         }
         {side=='right' && 
-        <div className='blob-1'>
+        <div className='blob-left'>
             <div className='blob-2'>
                 <img className='blob-image' src={image} alt={alt} />
             </div>
